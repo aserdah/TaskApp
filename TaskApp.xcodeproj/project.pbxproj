@@ -13,6 +13,10 @@
 		50F367B1252ED88100D30538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F367B0252ED88100D30538 /* Preview Assets.xcassets */; };
 		50F367B3252ED88100D30538 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F367B2252ED88100D30538 /* Persistence.swift */; };
 		50F367B6252ED88100D30538 /* TaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50F367B4252ED88100D30538 /* TaskApp.xcdatamodeld */; };
+		50F367C1252ED9E300D30538 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F367C0252ED9E300D30538 /* HomeView.swift */; };
+		50F367C5252EDA5700D30538 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F367C4252EDA5700D30538 /* HomeViewModel.swift */; };
+		50F367C8252EDC2700D30538 /* NewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F367C7252EDC2700D30538 /* NewDataView.swift */; };
+		50F367CC252EE17100D30538 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F367CB252EE17100D30538 /* DateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		50F367B2252ED88100D30538 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		50F367B5252ED88100D30538 /* TaskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskApp.xcdatamodel; sourceTree = "<group>"; };
 		50F367B7252ED88100D30538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F367C0252ED9E300D30538 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50F367C4252EDA5700D30538 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		50F367C7252EDC2700D30538 /* NewDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataView.swift; sourceTree = "<group>"; };
+		50F367CB252EE17100D30538 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		50F367A8252ED88000D30538 /* TaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				50F367BF252ED9B800D30538 /* ViewModel */,
+				50F367BE252ED97700D30538 /* View */,
 				50F367A9252ED88000D30538 /* TaskAppApp.swift */,
 				50F367AB252ED88000D30538 /* ContentView.swift */,
 				50F367AD252ED88100D30538 /* Assets.xcassets */,
@@ -73,6 +83,24 @@
 				50F367B0252ED88100D30538 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50F367BE252ED97700D30538 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50F367C0252ED9E300D30538 /* HomeView.swift */,
+				50F367C7252EDC2700D30538 /* NewDataView.swift */,
+				50F367CB252EE17100D30538 /* DateButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50F367BF252ED9B800D30538 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50F367C4252EDA5700D30538 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F367B6252ED88100D30538 /* TaskApp.xcdatamodeld in Sources */,
+				50F367C5252EDA5700D30538 /* HomeViewModel.swift in Sources */,
 				50F367B3252ED88100D30538 /* Persistence.swift in Sources */,
+				50F367C1252ED9E300D30538 /* HomeView.swift in Sources */,
 				50F367AC252ED88000D30538 /* ContentView.swift in Sources */,
+				50F367CC252EE17100D30538 /* DateButton.swift in Sources */,
 				50F367AA252ED88000D30538 /* TaskAppApp.swift in Sources */,
+				50F367C8252EDC2700D30538 /* NewDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
